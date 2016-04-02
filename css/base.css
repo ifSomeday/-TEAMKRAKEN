@@ -1,0 +1,37 @@
+/* 
+    Created on : Jun 10, 2015, 10:27:26 AM
+    Author     : Robert Erickson
+*/
+@import url('reset.css');
+/*------------------------   standard elements  ----------------------------- */
+body{
+    margin: 0 5% 0 5%;
+}
+
+/*------------------------   classes           ------------------------------ */
+
+p:nth-child(odd){
+    background-color: whitesmoke;
+}
+
+p:nth-child(even){
+    background-color: lightcyan;
+}
+
+.float_right {
+    float: right;
+    margin-left: 1em;
+}
+
+.small {
+    width: 150px;
+}
+
+/*------------------------   nav section only  ------------------------------ */
+nav .search{
+    position: fixed;
+    top: 10%;
+    margin: auto;
+}
+
+

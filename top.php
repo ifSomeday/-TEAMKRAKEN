@@ -52,7 +52,7 @@ include "lib/constants.php";
     </head>
     <!-- **********************     Body section      ********************** -->
     <?php
-    print '<body id="' . $PATH_PARTS['filename'] . '">';
+    print '<body>';
     include "header.php";
     include "nav.php";
     ?>
